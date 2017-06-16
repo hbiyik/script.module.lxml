@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.module.lxml" name="LXML Module" provider-name="hbiyik" version="3.8.0">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.abi" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">LXML precompiled module</summary>
+		<summary lang="tr">LXML için önceden derlenmiş kütüphane</summary>
+		<description lang="en">LXML</description>
+		<license>GNU General Public License, v2</license>
+		<forum>https://github.com/hbiyik/script.module.lxml/issues</forum>
+		<website>https://github.com/hbiyik/script.module.lxml</website>
+		<email>huseyinbiyik@hotmail.com</email>
+	</extension>
+</addon>
